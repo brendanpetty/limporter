@@ -1,0 +1,28 @@
+{
+    "name": "brendanpetty/limporter",
+    "description": "Laravel Importer Framework",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Brendanpetty\\Limporter\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Totally Web Services",
+            "email": "brendan@totally.net.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^10.0 || ^11.0",
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Brendanpetty\\Limporter\\LimporterServiceProvider"
+			]
+		}
+	}
+}
